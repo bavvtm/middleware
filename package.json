@@ -1,0 +1,35 @@
+{
+  "name": "@callmeumm/middleware",
+  "version": "0.0.0-development",
+  "description": "Simple middleware made on node.js",
+  "main": "lib/index.js",
+  "repository": "github:callmeumm/middleware",
+  "scripts": {
+    "build": "tsc --build",
+    "docs": "typedoc --out docs src/index.ts --plugin typedoc-plugin-markdown",
+    "fix:composer": "npx eslint src/composer.ts --fix",
+    "test:composer": "jest",
+    "test": "jest"
+  },
+  "author": "MA Choirul Umam <https://github.com/callmeumm>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "readline": "^1.3.0",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typedoc": "^0.21.6",
+    "typedoc-plugin-markdown": "^3.10.4",
+    "typescript": "^4.3.5"
+  }
+}
