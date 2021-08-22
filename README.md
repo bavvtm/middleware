@@ -12,7 +12,7 @@
 
 ### Usage
 ```js
-const { Composer } = require("path_to_composer");
+const { Composer } = require("@callmeumm/middleware");
 const composer = new Composer({
 	name: "",
 	status: ""
