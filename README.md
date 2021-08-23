@@ -18,7 +18,7 @@ const composer = new Composer({
 	status: ""
 });
 
-composer.compose([
+composer.compose(
 	(ctx) => {
 		ctx.data.name = "Pak Asep";
 		ctx.next();
@@ -30,5 +30,5 @@ composer.compose([
 	(ctx) => {
 		console.log(ctx.data);
 	}
-]).run();
+).run();
 ```
